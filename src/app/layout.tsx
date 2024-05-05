@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>
+      <body className={`prose ${montserrat.className}`}>
         <main>{children}</main>
       </body>
     </html>
