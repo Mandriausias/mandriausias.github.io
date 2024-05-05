@@ -14,6 +14,9 @@ const config: Config = {
       }
     }
   },
-  plugins: [require('@tailwindcss/typography'), require('daisyui')]
+  plugins: [require('@tailwindcss/typography'), require('daisyui')],
+  daisyui: {
+    themes: ['dracula']
+  }
 }
 export default config
